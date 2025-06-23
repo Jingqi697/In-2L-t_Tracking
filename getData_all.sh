@@ -1,5 +1,4 @@
-scp /User/Jingqi/Desktop/Project/Bergland_Lab/In(2L)t_Tracking/getData_all.R cqh6wn@rivanna.hpc.virginia.edu:/scratch/cqh6wn/In2Lt_Tracking/
-
+jingqi@697s-MacBook-Pro ~ % scp Desktop/Project/Bergland_Lab/Projects/In\(2L\)t_Tracking/DEST/dest_v2.samps_24Aug2024.csv cqh6wn@login.hpc.virginia.edu:/scratch/cqh6wn/In2Lt_Tracking/
 #!/bin/bash
 #SBATCH -J getData_all
 #SBATCH --ntasks-per-node=1
